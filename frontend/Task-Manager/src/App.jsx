@@ -12,7 +12,7 @@ function App() {
   const [updatedDescription, setUpdatedDescription] = useState("");
 
   useEffect(() => {
-    axios.get("http://localhost:5000/tasks").then((res) => setTasks(res.data));
+    axios.get(" http://localhost:5000/tasks").then((res) => setTasks(res.data));
   }, []);
 
   const addTask = () => {
