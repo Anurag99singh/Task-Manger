@@ -12,12 +12,14 @@ function App() {
   const [updatedDescription, setUpdatedDescription] = useState("");
 
   useEffect(() => {
-    axios.get(" http://localhost:5000/tasks").then((res) => setTasks(res.data));
+    axios
+      .get("  https://task-manger-7md6.onrender.com/tasks")
+      .then((res) => setTasks(res.data));
   }, []);
 
   const addTask = () => {
     axios
-      .post("http://localhost:5000/tasks", {
+      .post(" https://task-manger-7md6.onrender.com/tasks", {
         title,
         description,
         completed: false,
@@ -27,7 +29,7 @@ function App() {
 
   const updateTask = (id) => {
     axios
-      .put(`http://localhost:5000/tasks/${id}`, {
+      .put(` https://task-manger-7md6.onrender.com/tasks/${id}`, {
         title: updatedTitle,
         description: updatedDescription,
       })
@@ -39,7 +41,7 @@ function App() {
 
   const deleteTask = (id) => {
     axios
-      .delete(`http://localhost:5000/tasks/${id}`)
+      .delete(` https://task-manger-7md6.onrender.com/tasks/${id}`)
       .then(() => setTasks(tasks.filter((task) => task._id !== id)));
   };
 

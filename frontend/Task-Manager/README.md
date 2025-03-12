@@ -1,12 +1,55 @@
-# React + Vite
+# Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+Task Manager is a web application designed to help users efficiently manage their tasks. Users can create, edit, delete, and track their tasks seamlessly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Features
 
-## Expanding the ESLint configuration
+- Add, update, and delete tasks
+- Responsive UI
+- Local storage support
+- User-friendly interface
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Live Demo
+
+[Task Manager Live](https://task-manger-techstack.netlify.app/)
+
+## 🏗️ Tech Stack
+
+- Frontend: React.js, HTML, TailwindCSS, JavaScript,MongoDB,Mongoose,NodeJS,Express
+- State Management: useState, useEffect
+- Deployment: Netlify,Render
+
+## 🔧 Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/task-manager.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd task-manager
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## 📌 Usage
+
+- Open the app in a browser.
+- Add new tasks using the input field.
+- Delete tasks if needed.
